@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="design.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+  <title>form login.com</title>
+</head>
+
+<body>
+  <nav style="z-index: 100;">
+    <div class="container">
+      <ul>
+        <li class="logo">
+          <img src="image/logo.png" alt="Không tìm thấy ảnh" style="width: 100%; height: 100%" />
+        </li>
+        <li class="khung">
+          <input type="text" id="myInput" placeholder="Tim kiếm xe" />
+          <i class="fa fa-search"></i>
+        </li>
+        <li class="khung" id="account">
+          <a href="">Mua xe </a><i class="fa fa-angle-down" aria-hidden="true"></i>
+        </li>
+        <div role="tooltip" class="account" data-popper-placement="bottom-start">
+          <div class="jss3"></div>
+          <div class="grid" id="options"></div>
+        </div>
+        </li>
+        <li class="khung"><a href="../HTML/banxe.html">Bán xe</a></li>
+        <li class="khung"><a href="">Giới thiệu</a></li>
+        <li class="khung"><a href="../HTML/tintuc.html">Tin tức</a></li>
+        <li class="khung"><i class="fa fa-phone"></i><a href=""> 0962 385 165</a></li>
+        <li class="khung" id="account"><i class="fa fa-user-circle-o"></i> <a href="">Tài khoản </a><i
+            class="fa fa-angle-down" aria-hidden="true"></i>
+          <div role="tooltip" class="account" data-popper-placement="bottom-start">
+            <div class="jss3"></div>
+            <div class="options" id="options">
+              <button class="leading" onclick="window.location.href =''">
+                <span>Đăng nhập</span></button>
+              <button class="leading" onclick="window.location.href =''">
+                <span>Đăng kí</span></button>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="wrapper">
+    <div class="login-wrapper">
+      <form action="" id="form login">
+        <h1 class="form-heading">Đăng nhập</h1>
+
+        <div class="form-group">
+          <i class="far fa-user"></i>
+
+          <input type="text" class="form-input" placeholder="Vd: 0905529352" />
+        </div>
+        <div class="form-group">
+          <i class="fas fa-key"></i>
+          <input type="password" class="form-input" placeholder="Nhập mật khẩu có ít nhất 10 kí tự" />
+          <div id="eye">
+            <i class="far fa-eye"></i>
+          </div>
+        </div>
+        <input type="submit" value="Đăng nhập" class="form-submit" />
+        <div>
+          <button id="qmk"><span> Quên mật khẩu</span></button>
+          <span id="dky">Chưa có tài khoản?</span>
+          <button id="y"><span>Đăng ký</span></button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="a">
+    <div id="a1">
+
+      <ul>
+        <h3 class="font-size-18" style="color: black">Xe Toyota</h3>
+        <li class="l">Xe Toyota Vios</li>
+        <li class="l">Xe Toyota Veloz</li>
+        <li class="l">Xe Toyota Fortuner</li>
+        <li class="l">Xe Toyota Corolla Cross</li>
+      </ul>
+
+    </div>
+
+    <div id="a2">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe KIA</h3>
+        <li class="l">Xe Kia K3</li>
+        <li class="l">X Kia Seltos</li>
+        <li class="l">Xe Kia Sorento</li>
+        <li class="l">Xe Kia Sonet</li>
+      </ul>
+
+    </div>
+    <div id="a3">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe Huyndai</h3>
+        <li class="l">Xe Hyundai Accent</li>
+        <li class="l">Xe Hyundai Santafe</li>
+        <li class="l">Xe Hyundai i10</li>
+        <li class="l">Xe Hyundai Tucson</li>
+      </ul>
+
+
+    </div>
+
+    <div id="a4">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe Honda</h3>
+        <li class="l">Xe Honda City</li>
+        <li class="l">Xe Honda Civic</li>
+        <li class="l">Xe Honda CR-V/li>
+        <li class="l">Xe Honda Accord</li>
+      </ul>
+
+    </div>
+    <div id="a5">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe Mazda</h3>
+        <li class="l">Xe Mazda CX-5</li>
+        <li class="l">Xe Mazda CX-8</li>
+        <li class="l">Xe Mazda 2</li>
+        <li class="l">Xe Mazda 3</li>
+      </ul>
+
+    </div>
+    <div id="a6">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe Ford</h3>
+        <li class="l">Xe Ford Everest</li>
+        <li class="l">Xe Ford Eco Sport</li>
+        <li class="l">Xe Ford Territory</li>
+        <li class="l">Xe Ford Ranger</li>
+      </ul>
+    </div>
+    <div id="a7">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe Mitsubishi</h3>
+        <li class="l">Xe Mitsubishi Xpander</li>
+        <li class="l">Xe Mitsubishi Attrage</li>
+        <li class="l">Xe Mitsubishi Triton</li>
+        <li class="l">Xe Mitsubishi Outlander</li>
+      </ul>
+    </div>
+    
+    <div id="a8">
+
+      <ul>
+        <h3 class="font-size-18 " style="color: black">Xe BMW</h3>
+        <li class="l">Xe BMW i8</li>
+        <li class="l">Xe BMW X1</li>
+        <li class="l">Xe BMW X5</li>
+        <li class="l">Xe BMW X6</li>
+      </ul>
+    </div>
+    
+
+  </div>
+
+  <footer class="endtable">
+    <div class="endtable_1">
+      <div class="text1">
+        <img src="image/logo1.png" alt="" style="height: 80px; align-items: center;">
+        <p style="text-align: justify; font-size: 15px;">CarCTCY-9 - nền tảng hàng đầu trong lĩnh vực xe tại Việt Nam.
+          Cam kết mang đến cho khách hàng trải nghiệm hoàn toàn minh bạch, nhanh chóng và đáng tin cậy.</p>
+        <ul>
+          <li class="end_img"> <img src="image/facebook.jpg" alt=""> </li>
+          <li class="end_img"> <img src="image/tiktok.jpg" alt=""> </li>
+          <li class="end_img"> <img src="image/youtube.jpg" alt=""> </li>
+          <li class="end_img"> <img src="image/linkedin.jpg" alt=""> </li>
+
+        </ul>
+      </div>
+      <div class="text1 top-10 padding-left">
+        <h3 class="font-size-20" style="color: white;">Hỗ trợ</h3>
+
+        <li class="t">Mua xe bảo hiểm ô tô</li>
+        <li class="t">Trả góp mua xe</li>
+        <li class="t">Câu hỏi thường gặp</li>
+        <li class="t">Liên hệ hỗ trợ</li>
+
+      </div>
+      <div class="text1 top-10 padding-left">
+        <h3 class="font-size-20" style="color: white;">Dịch Vụ</h3>
+
+        <li class="t">Mua xe ô tô</li>
+        <li class="t">Bán xe ô tô</li>
+        <li class="t">Trở thành cộng tác viên</li>
+        <li class="t"> Báo giá cửa hàng</li>
+
+      </div>
+      <div class="text1">
+        <h3 style="margin-bottom: 30px; color: white; margin-top: 10px;" class="font-size-20">Công ty thành viên</h3>
+        OtoS - Trang đăng tin bán xe uy tín tại Việt Nam
+      </div>
+    </div>
+
+    <div class="endtable_2">
+
+      <p>CÔNG TY TNHH XE CarCTCY-9. Hotline: 0348338544 (Toàn quốc) Số ĐKKD: 4010 <br>
+
+        <br>
+        Địa chỉ: 273, đường An Dương Vương, phường 3, quận 3, Thành Phố Hồ Chí Minh, Việt Nam. ©2023 by Car Classifieds
+        Limited Liability Company.
+        <br> <br> CarCTCY-9 Vietnam là một thành viên của fram^ Investments
+      </p>
+    </div>
+
+  </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="js/design.js"></script>
+
+</html>
